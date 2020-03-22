@@ -46,16 +46,15 @@ function message(msg) {
 var game = function() {
     if (pickedColor !== undefined) {
         if (pickedColor === correctColor) {
-            message("Correct!!!")
+            message("Correct")
             colorArray = colorArray.map(color => correctColor)
             assignColors()
             document.getElementById("header").style.backgroundColor = correctColor
             changeBarTextColor(correctColor)
-            setHoverListener(correctColor)
             document.getElementById("new_game").innerText = "Play Again?"
 
         } else {
-            message("Try Again :(")
+            message("Try Again")
             colorArray = colorArray.map(color => color === pickedColor ? "rgb(35, 35, 35)" : color)
             assignColors()
         }
