@@ -55,7 +55,7 @@ h1 {
 #bar button,
 #bar {
     /* font-size: 1.1rem; */
-    font-weight: 800;
+    font-weight: 500;
     color: rgb(79, 140, 196);
     letter-spacing: 1px;
     transition: all 0.5s;
