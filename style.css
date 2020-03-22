@@ -1,9 +1,10 @@
 body {
     background-color: rgb(35, 35, 35);
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-    font-weight: 500;
+    font-weight: normal;
     font-size: 3rem;
 }
 
@@ -27,12 +28,37 @@ h1 {
     float: left;
     margin: 1.66%;
     border-radius: 20%;
+    transition: background-color 0.5s;
 }
 
 #header {
-    background-color: rgb(66, 135, 245);
+    background-color: rgb(79, 140, 196);
+    transition: all 0.5s;
+    --webkit-transition: all 0.5s;
+    --moz-transition: all 0.5s;
 }
 
 #squareGroup {
     max-width: 700px;
+}
+
+#bar #modes button:active,
+#modes .btn-light:not(:disabled):not(.disabled).active,
+#modes .btn-light:not(:disabled):not(.disabled):active,
+#modes .show>.btn-light.dropdown-toggle {
+    background-color: rgb(79, 140, 196);
+    border-color: rgb(79, 140, 196);
+    border-radius: 0;
+    color: white;
+}
+
+#bar button,
+#bar {
+    /* font-size: 1.1rem; */
+    font-weight: 800;
+    color: rgb(79, 140, 196);
+    letter-spacing: 1px;
+    transition: all 0.5s;
+    --webkit-transition: all 0.5s;
+    --moz-transition: all 0.5s;
 }
