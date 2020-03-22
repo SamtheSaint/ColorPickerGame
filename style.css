@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(35, 35, 35);
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+@media (min-width: 770px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+.btn-light:focus,
+.btn-light:not(:disabled):not(.disabled).active:focus,
+.btn-light:not(:disabled):not(.disabled):active:focus,
+.show>.btn-light.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0 transparent
+}
+
+.square {
+    width: 30%;
+    background-color: rgb(35, 35, 35);
+    padding: 15%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 20%;
+}
+
+#header {
+    background-color: rgb(66, 135, 245);
+}
+
+#squareGroup {
+    max-width: 700px;
+}

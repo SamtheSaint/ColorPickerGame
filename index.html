@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Color Game</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header" class="header text-uppercase text-center text-white">
+        <div class="container py-3">
+            <h2 class="my-0">The Great</h2>
+            <h1 id="correct_color" class="my-0">rgb(211, 206, 13)</h1>
+            <h2 class="my-0">Guessing Game</h2>
+        </div>
+    </section>
+
+
+    <section class="bg-light">
+        <div class="container">
+            <nav class="nav d-flex nav-justified align-items-center">
+                <li class="nav-item">
+                    <button id="new_game" class="btn btn-light">New Colours</button>
+                </li>
+                <li class="nav-item">
+                    <div id="message">
+                    </div>
+                </li>
+                <li id="modes" class="nav-item">
+                    <button class="btn btn-light d-inline by-0 active">Easy</button>
+                    <button class="btn btn-light d-inline">Hard</button>
+                </li>
+            </nav>
+        </div>
+
+    </section>
+    <section>
+        <div id="squareGroup" class="container">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="colorGame.js"></script>
+</body>
+
+</html>
